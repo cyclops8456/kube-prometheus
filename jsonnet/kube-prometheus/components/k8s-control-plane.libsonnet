@@ -28,7 +28,7 @@ function(params) {
   local k8s = self,
   _config:: defaults + params,
 
-  mixin:: (import 'github.com/kubernetes-monitoring/kubernetes-mixin/mixin.libsonnet') {
+  mixin:: (import 'github.com/cyclops8456/kubernetes-mixin/mixin.libsonnet') {
     _config+:: k8s._config.mixin._config,
   },
 

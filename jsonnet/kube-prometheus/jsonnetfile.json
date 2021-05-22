@@ -68,11 +68,11 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/prometheus/node_exporter",
+          "remote": "https://github.com/cyclops8456/node_exporter",
           "subdir": "docs/node-mixin"
         }
       },
-      "version": "release-1.1"
+      "version": "release-1.1.1"
     },
     {
       "source": {

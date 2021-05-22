@@ -45,7 +45,7 @@ function(params)
     // declare variable as a field to allow overriding options and to have unified API across all components
     _config:: config,
     mixin:: (import 'github.com/prometheus-operator/prometheus-operator/jsonnet/mixin/mixin.libsonnet') +
-            (import 'github.com/kubernetes-monitoring/kubernetes-mixin/alerts/add-runbook-links.libsonnet') {
+            (import 'github.com/cyclops8456/kubernetes-mixin/alerts/add-runbook-links.libsonnet') {
               _config+:: po._config.mixin._config,
             },
 

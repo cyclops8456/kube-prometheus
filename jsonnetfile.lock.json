@@ -24,6 +24,26 @@
     {
       "source": {
         "git": {
+          "remote": "https://github.com/cyclops8456/kubernetes-mixin.git",
+          "subdir": "lib/promgrafonnet"
+        }
+      },
+      "version": "024f0479d3b21e92615242fdcc5fbc6ffc4b61af",
+      "sum": "zv7hXGui6BfHzE9wPatHI/AGZa4A2WKo6pq7ZdqBsps="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/cyclops8456/node_exporter.git",
+          "subdir": "docs/node-mixin"
+        }
+      },
+      "version": "929c2bb931ef1e2a146986dab74d34129ff25529",
+      "sum": "Rm7o8kZ5UBfrLIz2GfdGVBFKYxcEzYUaju5hEvfDbtQ="
+    },
+    {
+      "source": {
+        "git": {
           "remote": "https://github.com/etcd-io/etcd.git",
           "subdir": "contrib/mixin"
         }
@@ -61,16 +81,6 @@
       "version": "0d2f82676817bbf9e4acf6495b2090205f323b9f",
       "sum": "h28BXZ7+vczxYJ2sCt8JuR9+yznRtU/iA6DCpQUrtEg=",
       "name": "ksonnet"
-    },
-    {
-      "source": {
-        "git": {
-          "remote": "https://github.com/kubernetes-monitoring/kubernetes-mixin.git",
-          "subdir": "lib/promgrafonnet"
-        }
-      },
-      "version": "faa0561a823cbd3b726aaefffcf6ee317547041a",
-      "sum": "zv7hXGui6BfHzE9wPatHI/AGZa4A2WKo6pq7ZdqBsps="
     },
     {
       "source": {
@@ -123,16 +133,6 @@
       "version": "99f64e944b1043c790784cf5373c8fb349816fc4",
       "sum": "V8jcZQ1Qrlm7AQ6wjbuQQsacPb0NvrcZovKyplmzW5w=",
       "name": "alertmanager"
-    },
-    {
-      "source": {
-        "git": {
-          "remote": "https://github.com/prometheus/node_exporter.git",
-          "subdir": "docs/node-mixin"
-        }
-      },
-      "version": "46cdf618c9419ea62dd1a87331def97a0f18c837",
-      "sum": "sxI7cBEy34JSbB0gHy9xC/ErtFsRzl9eJPsWVqd+XSY="
     },
     {
       "source": {
